@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>FCC - File Metadata Microservice Upload</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <!--<link href="/public/style.css" rel="stylesheet" type="text/css">-->
+   </head>
+
+   <body>
+      <div class="container">
+        <p>Submit a file to view its filesize</p>
+        
+        <form action="/get-file-size" method="post" enctype="multipart/form-data">
+          <input type="file" name="fccFileUpload">
+          <input type="submit">
+        </form>
+        
+      </div>
+   </body>
+
+</html>
